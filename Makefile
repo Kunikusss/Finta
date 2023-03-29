@@ -12,6 +12,7 @@ all: requirementsPython requirementsLinux
 	pip3 install -r requirementsPython
 	sudo apt-get install $(PACKAGES)
 
+#GITHUB test
 #zatim to zipne celej projekt, zpatky do te same slozky
 pack: 
 	echo "(zabalí projekt tak, aby mohl být odevzdán)"
