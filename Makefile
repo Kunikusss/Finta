@@ -8,7 +8,7 @@ PROJECT = ../PYproj
 
 # idk all je sus, python moc preklad jako nejde nebo jsem stoopid
 all: requirementsPython requirementsLinux
-	echo "(přeloží projekt - včetně programu pro profiling)"
+	echo "(přeloží projekt)"
 	pip3 install -r requirementsPython
 	sudo apt-get install $(PACKAGES)
 
